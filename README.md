@@ -154,7 +154,7 @@ In Go, fields and methods are accessible from outside their package if their nam
 # [Defer](defer_usage/main.go)
 In Go, `defer` postpones the execution of a function until the surrounding function finishes. `defer` is ideal for cleanup tasks, like closing files or releasing resources. Deferred calls execute in Last In, First Out (LIFO) order.
 
-# [Scopes]
+# Scopes
 In Go, variable scope determines where a variable can be accessed:
 - Package Scope:
 Variables declared outside functions are accessible throughout the entire package.
